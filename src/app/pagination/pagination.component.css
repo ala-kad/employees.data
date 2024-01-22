@@ -1,0 +1,78 @@
+/* Base styles */
+table {
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5%;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Overriding Material Indigo Pink Theme Styles */
+.mat-mdc-table .mdc-data-table__row,
+.mat-mdc-table .mdc-data-table__header-row{
+  height: auto;
+
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  table th, table td {
+    padding: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  table th, table td {
+    padding: 0.2rem;
+    font-size: 16px;
+  }
+}
+
+/* Paginator styles */
+.mat-paginator {
+  margin-top: 1rem;
+}
+
+/* Responsive paginator styles */
+@media screen and (max-width: 768px) {
+  .mat-paginator {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mat-paginator {
+    font-size: 16px;
+  }
+}
