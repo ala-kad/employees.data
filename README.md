@@ -1,5 +1,11 @@
-# Ng Employees Mat API
+# Angular Application with Material UI KIt
 
+## What Is it ? 
+
+Angular application that fetches employees' data from a remote API and displays it in a responsive and dynamic material table that supports paging and sorting.        
+This project was realized in the context of a technical assessment for an internship.
+
+### Note
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
