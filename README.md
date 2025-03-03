@@ -1,4 +1,4 @@
-# Angular Application with Material UI KIt
+# Angular Application with Material UI Kit
 
 ## What Is it ? 
 
